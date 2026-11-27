@@ -1,0 +1,44 @@
+# ---------------------------------------------------------------
+# Android / Gradle (se generan al compilar)
+# ---------------------------------------------------------------
+.gradle/
+build/
+.kotlin/
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# APKs y llaves de firma: nunca al repositorio
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Capturas de las pruebas (se regeneran con ./gradlew recordRoborazziDebug)
+BocchiFan/app/screenshots/
+
+# ---------------------------------------------------------------
+# Contenido con derechos de autor: NO se sube.
+# Cada persona pone sus propios archivos en contenido/ (ver los LEEME.txt).
+# Sí se suben: los LEEME.txt y contenido/datos/personajes.json.
+# ---------------------------------------------------------------
+contenido/**/*.mp3
+contenido/**/*.ogg
+contenido/**/*.m4a
+contenido/**/*.wav
+contenido/**/*.aac
+contenido/**/*.flac
+contenido/**/*.gif
+contenido/**/*.webp
+contenido/**/*.png
+contenido/**/*.jpg
+contenido/**/*.jpeg
+contenido/**/*.lrc
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini

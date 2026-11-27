@@ -1,0 +1,16 @@
+MÚSICA DE FONDO (OST)
+=====================
+
+Esta carpeta es SOLO para la música de fondo de los menús (portada, menú, ajustes...).
+NO es para las canciones del juego: esas irán en otra carpeta en la Fase 3.
+
+Pon aquí los archivos de audio del soundtrack (OST) de Bocchi the Rock!.
+Formatos: .mp3, .ogg, .m4a, .wav, .aac o .flac
+
+- Suenan al abrir la app, en orden aleatorio, una tras otra.
+- El nombre que se muestra en la app sale del nombre del archivo.
+  Ejemplo: "01 - Guitar, Loneliness and Blue Planet.mp3" se muestra como
+  "Guitar, Loneliness and Blue Planet" (el número del inicio se quita).
+- Después de agregar o quitar archivos, hay que volver a compilar e instalar la app.
+
+Este archivo (LEEME.txt) no se reproduce; puedes dejarlo aquí.

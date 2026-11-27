@@ -1,0 +1,17 @@
+FONDOS DE LA PARTIDA (ESCENAS)
+==============================
+
+En cada canción que juegas se elige UNA escena al azar (distinta de la anterior)
+y se ve detrás de los carriles, oscurecida para que las notas se lean bien.
+
+- Cada SUBCARPETA es una escena:
+    1_festival_banda/   → 2 GIFs del mismo escenario: se alternan cada 20 segundos
+    2_festival_bocchi/  → 1 GIF
+    3_live_house/       → 1 GIF
+    4_bocchi_azul/      → 1 GIF
+    5_banda_mini/       → 1 GIF (la banda en miniatura)
+- Para una escena nueva, crea otra subcarpeta con 1 o 2 GIFs del mismo lugar.
+- Un GIF suelto aquí (fuera de subcarpetas) también cuenta como escena de 1 GIF.
+- Formatos: .gif, .webp (animado o no), .png, .jpg
+
+Después de cambiar algo, hay que volver a compilar e instalar la app.

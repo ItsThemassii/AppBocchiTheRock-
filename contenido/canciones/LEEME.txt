@@ -1,0 +1,27 @@
+CANCIONES (juego y reproductor)
+===============================
+
+Cada subcarpeta es un álbum. Ejemplo:
+  canciones/Kessoku Band/Karakara.mp3
+
+- Se usan en "Jugar" (las notas se crean solas al analizar el audio)
+  y en "Canciones" (reproductor con portada y letra).
+- La portada que se muestra es la imagen que trae incrustada el MP3.
+
+LETRAS
+------
+Pon un archivo con EL MISMO NOMBRE que la canción, en la misma carpeta:
+
+  Karakara.lrc   → letra SINCRONIZADA (se ilumina cada línea mientras suena)
+  Karakara.txt   → letra sin sincronizar (solo texto)
+
+Formato .lrc (una línea por verso, con el minuto:segundo en que empieza):
+
+  [00:12.50] primera línea de la letra
+  [00:16.80] segunda línea
+  [00:21.10] ...
+
+Opcional: [offset:+300] adelanta toda la letra 300 ms (o -300 la atrasa).
+Guarda el archivo en UTF-8. Después vuelve a compilar e instalar la app.
+
+Este archivo (LEEME.txt) no afecta a nada.

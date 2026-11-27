@@ -1,0 +1,19 @@
+IMÁGENES
+========
+
+Formatos: .png, .jpg, .jpeg o .webp
+
+PORTADA (fondo de la pantalla de inicio)
+  imagenes/portada.png        (vertical queda mejor; se recorta para llenar la pantalla)
+
+PERSONAJES (carpeta "personajes")
+  imagenes/personajes/bocchi.png
+  imagenes/personajes/nijika.png
+  imagenes/personajes/ryo.png
+  imagenes/personajes/kita.png
+
+  Para los retratos redondos de "La banda" quedan mejor imágenes cuadradas
+  con la cara centrada. Estas mismas imágenes se usarán en las fichas (Fase 2).
+
+Si una imagen no existe, la app usa el diseño sin imagen (no falla).
+Después de agregar o cambiar imágenes, hay que volver a compilar e instalar la app.

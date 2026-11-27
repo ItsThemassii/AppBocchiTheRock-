@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="stage_dark">#FF14122A</color>
+    <color name="ic_launcher_background">#FFF4A7C3</color>
+
+    <style name="Theme.BocchiFan" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/stage_dark</item>
+    </style>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bocchi Fan</string>
+
+    <!-- Portada -->
+    <string name="title_kicker">Kessoku Band · App de fans</string>
+    <string name="title_line1" translatable="false">BOCCHI</string>
+    <string name="title_line2" translatable="false">THE ROCK!</string>
+    <string name="title_tap">Toca para empezar</string>
+    <string name="title_disclaimer">App de fans no oficial · uso personal</string>
+    <string name="credit_made_with">hecho con</string>
+    <string name="credit_by">por</string>
+
+    <!-- Menú -->
+    <string name="menu_kicker" translatable="false">結束バンド · KESSOKU BAND</string>
+    <string name="menu_greeting">¿Q-qué hacemos hoy…?</string>
+    <string name="menu_play">Jugar</string>
+    <string name="menu_play_desc">Toca al ritmo de sus canciones</string>
+    <string name="menu_characters">Personajes</string>
+    <string name="menu_characters_desc">Fichas de la banda y más</string>
+    <string name="menu_songs">Canciones</string>
+    <string name="menu_songs_desc">Escucha el álbum con su letra</string>
+    <string name="menu_settings">Ajustes</string>
+    <string name="menu_settings_desc">Idioma y acerca de</string>
+    <string name="menu_lineup">La banda</string>
+
+    <!-- Próximamente -->
+    <string name="coming_soon_title">Próximamente</string>
+    <string name="coming_soon_body">Bocchi se escondió en su caja… Esta sección llega en la %1$s.</string>
+    <string name="phase_2">Fase 2</string>
+    <string name="phase_3">Fase 3</string>
+    <string name="box_label" translatable="false">完熟マンゴー</string>
+
+    <!-- Ajustes -->
+    <string name="back">Volver</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_theme">Tema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="lang_system">Sistema</string>
+    <string name="lang_es" translatable="false">Español</string>
+    <string name="lang_en" translatable="false">English</string>
+    <string name="settings_about">Acerca de</string>
+    <string name="settings_about_body">App de fans no oficial de Bocchi the Rock!, hecha solo para uso personal. Los personajes, el arte y la música pertenecen a sus respectivos dueños.</string>
+    <string name="settings_version">Versión %1$s</string>
+
+    <!-- Personajes -->
+    <string name="characters_kessoku" translatable="false">Kessoku Band</string>
+    <string name="characters_secondary">Personajes secundarios</string>
+    <string name="characters_empty">No se encontraron fichas. Revisa el archivo contenido/datos/personajes.json.</string>
+    <string name="characters_source">Datos: Bocchi the Rock! Wiki (Fandom)</string>
+    <string name="section_profile">Datos</string>
+    <string name="section_bio">Biografía</string>
+    <string name="section_facts">Curiosidades</string>
+    <string name="stat_age">Edad</string>
+    <string name="stat_birthday">Cumpleaños</string>
+    <string name="stat_height">Estatura</string>
+    <string name="stat_blood">Tipo de sangre</string>
+    <string name="stat_school">Escuela</string>
+    <string name="stat_band">Grupo</string>
+    <string name="stat_voice">Seiyū</string>
+
+    <!-- Juego -->
+    <string name="difficulty_easy">Fácil</string>
+    <string name="difficulty_normal">Normal</string>
+    <string name="difficulty_hard">Difícil</string>
+    <string name="difficulty_expert">Experto</string>
+    <string name="songs_empty">Aún no hay canciones. Pon los audios en la carpeta contenido/canciones del proyecto (una subcarpeta por álbum) y vuelve a instalar la app.</string>
+    <string name="songs_difficulty">Dificultad</string>
+    <string name="songs_speed">Velocidad de las notas</string>
+    <string name="songs_best">Récord: %1$s</string>
+    <string name="songs_no_record">Sin jugar todavía</string>
+    <string name="game_loading">Analizando la canción…</string>
+    <string name="game_loading_hint">Solo tarda la primera vez; después carga al instante.</string>
+    <string name="game_paused">Pausa</string>
+    <string name="game_resume">Continuar</string>
+    <string name="game_restart">Reintentar</string>
+    <string name="game_quit">Salir</string>
+    <string name="game_choose_song">Elegir canción</string>
+    <string name="game_failed">Live fallido…</string>
+    <string name="game_failed_hint">B-Bocchi se desmayó en el escenario. ¡Inténtalo otra vez!</string>
+    <string name="game_clear">¡Live completado!</string>
+    <string name="game_new_record">¡NUEVO RÉCORD!</string>
+    <string name="game_celebration">¡B-Bocchi lo logró sin un solo fallo!</string>
+    <string name="game_max_combo">Combo máximo</string>
+    <string name="game_error">No se pudo cargar la canción.</string>
+    <string name="settings_game">Juego</string>
+    <string name="settings_offset">Sincronía</string>
+    <string name="settings_offset_hint">Si tocas a tiempo pero salen juicios «tarde», súbelo; si salen «pronto», bájalo. Con audífonos Bluetooth suele hacer falta subirlo.</string>
+    <string name="settings_tap_sound">Sonido al tocar las notas</string>
+    <string name="settings_song_volume">Volumen de las canciones</string>
+
+    <!-- Música -->
+    <string name="now_playing">Sonando</string>
+    <string name="music_next">Siguiente canción</string>
+    <string name="music_muted">Música silenciada</string>
+    <string name="settings_ui_sounds">Sonidos de guitarra al tocar</string>
+
+    <!-- Reproductor -->
+    <string name="player_now_playing">Reproduciendo</string>
+    <string name="player_lyrics">Letra</string>
+    <string name="player_shuffle">Aleatorio</string>
+    <string name="player_previous">Anterior</string>
+    <string name="player_next">Siguiente</string>
+    <string name="player_repeat">Repetir</string>
+    <string name="player_play">Reproducir</string>
+    <string name="player_pause">Pausar</string>
+    <string name="lyrics_none">Esta canción aún no tiene letra.</string>
+    <string name="lyrics_how">1. Toca «Buscar letra»: se abre el navegador.\n2. Copia la letra de la canción.\n3. Vuelve aquí, toca «Pegar letra» y guárdala.</string>
+    <string name="lyrics_search">Buscar letra</string>
+    <string name="lyrics_search_synced">Buscar sincronizada</string>
+    <string name="lyrics_paste">Pegar letra</string>
+    <string name="lyrics_paste_clipboard">Pegar</string>
+    <string name="lyrics_edit">Editar letra</string>
+    <string name="lyrics_save">Guardar</string>
+    <string name="lyrics_cancel">Cancelar</string>
+    <string name="lyrics_delete">Borrar</string>
+    <string name="lyrics_editor_title">Letra de %1$s</string>
+    <string name="lyrics_editor_hint">Copia la letra en el navegador y toca «Pegar». Si la letra trae tiempos como [00:12.34] (búscala como «sincronizada»), se iluminará al ritmo de la canción.</string>
+    <string name="lyrics_placeholder">Pega aquí la letra…</string>
+    <string name="music_mute">Silenciar música</string>
+    <string name="music_unmute">Activar música</string>
+    <string name="settings_music">Música</string>
+    <string name="settings_music_enabled">Música de fondo</string>
+    <string name="settings_music_volume">Volumen</string>
+    <string name="settings_music_empty">Aún no hay canciones. Pon los archivos del OST en la carpeta contenido/musica del proyecto y vuelve a instalar la app.</string>
+</resources>

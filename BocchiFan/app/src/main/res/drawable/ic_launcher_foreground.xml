@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Púa de guitarra con un "!" (como en "THE ROCK!"). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FF1C1A2E"
+        android:pathData="M56,84 C46,76 36,64 36,48 C36,36 45,30 56,30 C67,30 76,36 76,48 C76,64 66,76 56,84 Z" />
+    <path
+        android:fillColor="#FFE5578C"
+        android:pathData="M54,82 C44,74 34,62 34,46 C34,34 43,28 54,28 C65,28 74,34 74,46 C74,62 64,74 54,82 Z"
+        android:strokeWidth="3"
+        android:strokeColor="#FF1C1A2E" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M50.5,37 L57.5,37 L56,60 L52,60 Z M51,64 L57,64 L57,70 L51,70 Z" />
+</vector>

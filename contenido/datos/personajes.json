@@ -1,0 +1,429 @@
+{
+  "_info": "Fichas de personajes. Datos (edad, estatura, cumpleaños, seiyū...) tomados de la Bocchi the Rock! Wiki (Fandom). Los textos están en español (es) e inglés (en). Puedes editar este archivo; luego vuelve a compilar e instalar la app. La imagen de cada personaje va en contenido/imagenes/personajes/<id>.png",
+  "personajes": [
+    {
+      "id": "bocchi",
+      "grupo": "kessoku",
+      "color": "#F4A7C3",
+      "nombre": "Hitori Gotoh",
+      "nombreJp": "後藤ひとり",
+      "apodo": { "es": "Bocchi-chan · guitarhero", "en": "Bocchi-chan · guitarhero" },
+      "rol": { "es": "Guitarra principal y letrista", "en": "Lead guitar and lyricist" },
+      "edad": { "es": "15 años", "en": "15 years old" },
+      "cumpleanos": { "es": "21 de febrero", "en": "February 21" },
+      "estatura": "156 cm",
+      "sangre": "B",
+      "escuela": { "es": "Preparatoria Shuka (1.er año)", "en": "Shuka High School (1st year)" },
+      "banda": "Kessoku Band",
+      "seiyu": "Yoshino Aoyama",
+      "bio": {
+        "es": [
+          "La protagonista. Es tímida al extremo y tiene muchísima ansiedad social: le cuesta hablar con desconocidos y pasa la mayor parte del tiempo en casa, tocando la guitarra a oscuras dentro de su armario.",
+          "Empezó a tocar en su primer año de secundaria, soñando con que una banda la hiciera popular, y practicó seis horas al día. En internet sube covers como «guitarhero» y es muy talentosa, pero en el escenario los nervios la bloquean. Todo cambia cuando Nijika la encuentra en un columpio y la lleva a STARRY a tocar con Kessoku Band."
+        ],
+        "en": [
+          "The protagonist. She is extremely shy and has severe social anxiety: talking to strangers is a struggle, and she spends most of her time at home playing guitar in the dark inside her closet.",
+          "She started playing in her first year of middle school, dreaming that a band would make her popular, and practiced six hours a day. Online she uploads covers as \"guitarhero\" and is very talented, but on stage her nerves freeze her. Everything changes when Nijika finds her on a swing and takes her to STARRY to play with Kessoku Band."
+        ]
+      },
+      "curiosidades": {
+        "es": [
+          "En su primer concierto tocó escondida dentro de una caja de mangos.",
+          "Viaja unas 2 horas para ir al instituto, para no encontrarse con nadie que la conozca.",
+          "Sus pinzas de pelo con cubos amarillo y azul son su seña de identidad."
+        ],
+        "en": [
+          "At her first live show she played hidden inside a mango box.",
+          "She travels about 2 hours to school so she won't run into anyone she knows.",
+          "Her yellow and blue cube hair clips are her trademark."
+        ]
+      }
+    },
+    {
+      "id": "nijika",
+      "grupo": "kessoku",
+      "color": "#FFD34E",
+      "nombre": "Nijika Ijichi",
+      "nombreJp": "伊地知虹夏",
+      "apodo": { "es": "El arcángel de Shimokitazawa", "en": "Archangel of Shimokitazawa" },
+      "rol": { "es": "Batería y líder", "en": "Drums and leader" },
+      "edad": { "es": "16–18 años", "en": "16–18 years old" },
+      "cumpleanos": { "es": "29 de mayo", "en": "May 29" },
+      "estatura": "154 cm",
+      "sangre": "A",
+      "escuela": { "es": "Preparatoria Shimokitazawa (2.º año)", "en": "Shimokitazawa High School (2nd year)" },
+      "banda": "Kessoku Band",
+      "seiyu": "Sayumi Suzushiro",
+      "bio": {
+        "es": [
+          "Alegre, amable y siempre pendiente de los demás. Es quien mantiene unida a Kessoku Band, quien encontró a Bocchi y quien la ayuda, junto a Kita, a superar poco a poco su ansiedad.",
+          "Creció rodeada de bandas gracias a su hermana mayor, Seika, que dirige la sala STARRY, donde Nijika trabaja por gratitud. También diseña el logo y las portadas de la banda y edita los videos de sus conciertos."
+        ],
+        "en": [
+          "Cheerful, kind and always looking out for others. She is the one who holds Kessoku Band together, who found Bocchi, and who helps her, together with Kita, slowly overcome her anxiety.",
+          "She grew up around bands thanks to her older sister Seika, who runs the STARRY live house, where Nijika works out of gratitude. She also designs the band's logo and CD covers and edits their concert videos."
+        ]
+      },
+      "curiosidades": {
+        "es": [
+          "Era fan de «guitarhero» y descubrió que en realidad era Bocchi.",
+          "Es la mejor amiga de Ryo y la que la pone en su sitio cuando hace de las suyas.",
+          "De pequeña molestaba a Seika subiéndole el volumen al amplificador."
+        ],
+        "en": [
+          "She was a fan of \"guitarhero\" and found out it was actually Bocchi.",
+          "She is Ryo's best friend and the one who keeps her in check.",
+          "As a kid she used to annoy Seika by turning up her amp."
+        ]
+      }
+    },
+    {
+      "id": "ryo",
+      "grupo": "kessoku",
+      "color": "#4A78D6",
+      "nombre": "Ryo Yamada",
+      "nombreJp": "山田リョウ",
+      "apodo": { "es": "worldwideyamada", "en": "worldwideyamada" },
+      "rol": { "es": "Bajo, coros y compositora", "en": "Bass, backing vocals and composer" },
+      "edad": { "es": "16–17 años", "en": "16–17 years old" },
+      "cumpleanos": { "es": "18 de septiembre", "en": "September 18" },
+      "estatura": "163 cm",
+      "sangre": "AB",
+      "escuela": { "es": "Preparatoria Shimokitazawa (2.º año)", "en": "Shimokitazawa High School (2nd year)" },
+      "banda": "Kessoku Band",
+      "seiyu": "Saku Mizuno",
+      "bio": {
+        "es": [
+          "Callada, inexpresiva y con un aire misterioso que fascina a muchas chicas. Detrás de esa cara seria hay una chica excéntrica y bromista a la que no le molesta que la llamen rara.",
+          "Su familia es rica, pero ella siempre está sin dinero porque se lo gasta todo en instrumentos; a veces hasta come hierbas para quitarse el hambre. Compone la música de Kessoku Band y anima a Bocchi a escribir letras sinceras."
+        ],
+        "en": [
+          "Quiet, expressionless, with a mysterious air that fascinates many girls. Behind that serious face is an eccentric prankster who doesn't mind being called weird.",
+          "Her family is wealthy, but she is always broke because she spends everything on instruments; sometimes she even eats weeds to fight hunger. She composes Kessoku Band's music and encourages Bocchi to write honest lyrics."
+        ]
+      },
+      "curiosidades": {
+        "es": [
+          "Antes tocaba en otra banda, The Hamukitasu.",
+          "Se interesó por el rock para que sus padres, muy protectores, pensaran que iba por mal camino.",
+          "Es gran fan de SICK HACK, la banda de Kikuri."
+        ],
+        "en": [
+          "She used to play in another band, The Hamukitasu.",
+          "She got into rock so her overprotective parents would think she had gone astray.",
+          "She is a big fan of SICK HACK, Kikuri's band."
+        ]
+      }
+    },
+    {
+      "id": "kita",
+      "grupo": "kessoku",
+      "color": "#E5483F",
+      "nombre": "Ikuyo Kita",
+      "nombreJp": "喜多郁代",
+      "apodo": { "es": "Kita-chan · la guitarrista que huyó", "en": "Kita-chan · the runaway guitarist" },
+      "rol": { "es": "Voz y guitarra rítmica", "en": "Vocals and rhythm guitar" },
+      "edad": { "es": "15–16 años", "en": "15–16 years old" },
+      "cumpleanos": { "es": "21 de abril", "en": "April 21" },
+      "estatura": "158 cm",
+      "sangre": "A",
+      "escuela": { "es": "Preparatoria Shuka (1.er año)", "en": "Shuka High School (1st year)" },
+      "banda": "Kessoku Band",
+      "seiyu": "Ikumi Hasegawa",
+      "bio": {
+        "es": [
+          "Brillante, sociable y popular: habla con cualquiera con una sonrisa y sube fotos a Isosta sin parar. Aun así, se siente una persona del montón comparada con Ryo, a quien admira desde que la vio tocar en la calle.",
+          "Entró a Kessoku Band como guitarrista, pero huyó antes del primer concierto porque en realidad no sabía tocar. Bocchi la convence de volver, le enseña guitarra y Kita termina siendo la voz de la banda."
+        ],
+        "en": [
+          "Bright, sociable and popular: she talks to anyone with a smile and posts photos on Isosta nonstop. Even so, she feels ordinary compared to Ryo, whom she has admired since seeing her play on the street.",
+          "She joined Kessoku Band as a guitarist but ran away before the first show because she couldn't actually play. Bocchi convinces her to come back, teaches her guitar, and Kita becomes the band's vocalist."
+        ]
+      },
+      "curiosidades": {
+        "es": [
+          "Odia su nombre y prefiere que la llamen por su apellido: «Kita» e «Ikuyo» suenan como «¡ya llegó!» y «¡vamos!».",
+          "Al principio llamaba a Bocchi «Gotoh-san» y después pasó a «Hitori-chan».",
+          "Es mucho más perceptiva con los demás de lo que aparenta."
+        ],
+        "en": [
+          "She hates her first name and prefers her surname: \"Kita\" and \"Ikuyo\" sound like \"here I am!\" and \"let's go!\".",
+          "She first called Bocchi \"Gotoh-san\" and later switched to \"Hitori-chan\".",
+          "She is far more perceptive about others than she seems."
+        ]
+      }
+    },
+    {
+      "id": "seika",
+      "grupo": "secundario",
+      "color": "#F2B544",
+      "nombre": "Seika Ijichi",
+      "nombreJp": "伊地知星歌",
+      "apodo": { "es": "La onee-chan de Nijika", "en": "Nijika's big sister" },
+      "rol": { "es": "Encargada de la sala STARRY", "en": "Manager of the STARRY live house" },
+      "edad": { "es": "29–30 años", "en": "29–30 years old" },
+      "cumpleanos": { "es": "24 de diciembre", "en": "December 24" },
+      "estatura": "166 cm",
+      "sangre": "AB",
+      "banda": "STARRY",
+      "seiyu": "Maaya Uchida",
+      "bio": {
+        "es": [
+          "La hermana mayor de Nijika y la jefa de STARRY. Parece seria, estricta y algo dura con la banda, pero en el fondo es quien más se preocupa por Kessoku Band.",
+          "Fue guitarrista en una banda que llegó a interesar a discográficas. Aunque nunca lo admitirá, todo indica que abrió STARRY pensando en su hermana."
+        ],
+        "en": [
+          "Nijika's older sister and the boss of STARRY. She seems serious, strict and somewhat harsh with the band, but deep down she cares about Kessoku Band more than anyone.",
+          "She was the guitarist of a band that caught the interest of record labels. She will never admit it, but everything suggests she opened STARRY for her sister."
+        ]
+      },
+      "curiosidades": {
+        "es": [
+          "Se dio cuenta muy pronto del talento de Bocchi como guitarrista.",
+          "Duerme con peluches a pesar de su edad.",
+          "Kikuri fue su kōhai (compañera menor) en la universidad."
+        ],
+        "en": [
+          "She noticed Bocchi's talent as a guitarist very early.",
+          "She sleeps with stuffed animals despite her age.",
+          "Kikuri was her kōhai (junior) in college."
+        ]
+      }
+    },
+    {
+      "id": "pasan",
+      "grupo": "secundario",
+      "color": "#8E8AA8",
+      "nombre": "PA-san",
+      "nombreJp": "PAさん",
+      "apodo": { "es": "Alto Otogi (su VTuber)", "en": "Alto Otogi (her VTuber)" },
+      "rol": { "es": "Técnica de sonido de STARRY", "en": "STARRY's sound engineer" },
+      "edad": { "es": "24 años", "en": "24 years old" },
+      "cumpleanos": { "es": "11 de noviembre", "en": "November 11" },
+      "estatura": "162 cm",
+      "banda": "STARRY",
+      "seiyu": "Kotori Koiwai",
+      "bio": {
+        "es": [
+          "La técnica de sonido (PA) de STARRY. Con su estilo gótico y sus piercings asustó a Bocchi al principio, pero es muy amable, tranquila y simpática.",
+          "Dejó la preparatoria porque nunca lograba levantarse temprano, y por eso trabaja de noche. En secreto es la VTuber Alto Otogi y sube videos de videojuegos."
+        ],
+        "en": [
+          "STARRY's PA (sound) engineer. Her goth style and piercings scared Bocchi at first, but she is very kind, easygoing and friendly.",
+          "She dropped out of high school because she could never wake up early, which is why she works at night. Secretly she is the VTuber Alto Otogi and uploads gaming videos."
+        ]
+      },
+      "curiosidades": {
+        "es": [
+          "Su nombre real nunca se revela y no le gusta hablar de él.",
+          "Eliza, de SICK HACK, es fan de Alto Otogi sin saber quién es en realidad.",
+          "Su seiyū también le pone voz a Jimihen, el perro de los Gotoh."
+        ],
+        "en": [
+          "Her real name is never revealed and she dislikes talking about it.",
+          "Eliza from SICK HACK is a fan of Alto Otogi without knowing who she really is.",
+          "Her voice actress also voices Jimihen, the Gotoh family's dog."
+        ]
+      }
+    },
+    {
+      "id": "kikuri",
+      "grupo": "secundario",
+      "color": "#B56FA8",
+      "nombre": "Kikuri Hiroi",
+      "nombreJp": "廣井きくり",
+      "rol": { "es": "Bajo y voz de SICK HACK", "en": "Bass and vocals of SICK HACK" },
+      "edad": { "es": "25 años", "en": "25 years old" },
+      "cumpleanos": { "es": "28 de septiembre", "en": "September 28" },
+      "estatura": "158 cm",
+      "banda": "SICK HACK",
+      "seiyu": "Sayaka Senbongi",
+      "bio": {
+        "es": [
+          "Bajista y cantante de SICK HACK, casi siempre borracha. Por los destrozos en sus conciertos acumula multas y siempre anda sin dinero, aunque es una música brillante.",
+          "Conoció a Bocchi frente a la estación mientras intentaba vender entradas, y la animó a tocar con ella en la calle: así descubrió su talento. Tiene su propio manga spin-off."
+        ],
+        "en": [
+          "Bassist and singer of SICK HACK, almost always drunk. Damage at her shows piles up fines and she is always broke, even though she is a brilliant musician.",
+          "She met Bocchi outside the station while Bocchi was trying to sell tickets, and got her to play with her on the street: that's how she discovered her talent. She stars in her own spin-off manga."
+        ]
+      },
+      "curiosidades": {
+        "es": [
+          "Hasta la preparatoria era tímida y sombría, muy parecida a Bocchi.",
+          "Fue kōhai de Seika en la universidad.",
+          "Le pidió dinero prestado a Bocchi para volver a casa."
+        ],
+        "en": [
+          "Until high school she was shy and gloomy, a lot like Bocchi.",
+          "She was Seika's kōhai in college.",
+          "She borrowed money from Bocchi to get home."
+        ]
+      }
+    },
+    {
+      "id": "shima",
+      "grupo": "secundario",
+      "color": "#5B5F8A",
+      "nombre": "Shima Iwashita",
+      "nombreJp": "岩下志麻",
+      "rol": { "es": "Batería de SICK HACK", "en": "Drums of SICK HACK" },
+      "edad": { "es": "25 años", "en": "25 years old" },
+      "cumpleanos": { "es": "15 de mayo", "en": "May 15" },
+      "estatura": "163 cm",
+      "banda": "SICK HACK",
+      "seiyu": "Maki Kawase",
+      "bio": {
+        "es": [
+          "La baterista de SICK HACK. Con su pelo corto y su chaqueta universitaria parece un chico a primera vista, pero es muy educada y amable con todo el mundo.",
+          "La única excepción es Kikuri, a quien regaña sin parar por su vida desordenada. Fundaron la banda juntas en la universidad."
+        ],
+        "en": [
+          "SICK HACK's drummer. With her short hair and varsity jacket she can look like a boy at first glance, but she is very polite and kind to everyone.",
+          "The only exception is Kikuri, whom she constantly scolds for her messy lifestyle. They founded the band together in college."
+        ]
+      },
+      "curiosidades": {
+        "es": [
+          "Se disculpó con Kessoku Band por las travesuras de Kikuri.",
+          "Según Bocchi, sus ritmos irregulares vuelven loco a cualquiera.",
+          "En la preparatoria era muy servicial y querida por todos."
+        ],
+        "en": [
+          "She apologized to Kessoku Band for Kikuri's antics.",
+          "According to Bocchi, her irregular beats drive anyone crazy.",
+          "In high school she was very helpful and everyone's favorite."
+        ]
+      }
+    },
+    {
+      "id": "eliza",
+      "grupo": "secundario",
+      "color": "#E8C547",
+      "nombre": "Eliza Shimizu",
+      "nombreJp": "清水エライザ",
+      "rol": { "es": "Guitarra de SICK HACK", "en": "Guitar of SICK HACK" },
+      "edad": { "es": "21 años", "en": "21 years old" },
+      "cumpleanos": { "es": "1 de enero", "en": "January 1" },
+      "estatura": "167 cm",
+      "banda": "SICK HACK",
+      "seiyu": "Sally Amaki",
+      "bio": {
+        "es": [
+          "La guitarrista de SICK HACK. Viene de Inglaterra y se mudó a Japón para ir al Comiket y tocar en una banda de covers de anime.",
+          "Es alegre, amistosa y una otaku orgullosa: sabe muchísimo de anime y se gasta todo su dinero en la Comima. También dibuja doujinshi."
+        ],
+        "en": [
+          "SICK HACK's guitarist. She comes from England and moved to Japan to attend Comiket and play in an anime song cover band.",
+          "She is cheerful, friendly and a proud otaku: she knows tons about anime and spends all her money at Comima. She also draws doujinshi."
+        ]
+      },
+      "curiosidades": {
+        "es": [
+          "Mira los streams de Alto Otogi mientras dibuja.",
+          "Tiene una hermana pequeña llamada Charlotte.",
+          "Conoció a Kessoku Band en Shinjuku FOLT."
+        ],
+        "en": [
+          "She watches Alto Otogi's streams while drawing.",
+          "She has a little sister named Charlotte.",
+          "She met Kessoku Band at Shinjuku FOLT."
+        ]
+      }
+    },
+    {
+      "id": "yoyoko",
+      "grupo": "secundario",
+      "color": "#C9605A",
+      "nombre": "Yoyoko Ohtsuki",
+      "nombreJp": "大槻ヨヨコ",
+      "rol": { "es": "Voz, guitarra y líder de SIDEROS", "en": "Vocals, guitar and leader of SIDEROS" },
+      "cumpleanos": { "es": "2 de junio", "en": "June 2" },
+      "banda": "SIDEROS",
+      "bio": {
+        "es": [
+          "La líder de SIDEROS. Considera a Kessoku Band su banda rival, y a Bocchi su rival personal. Adora a Kikuri, a quien llama «nee-san».",
+          "Aunque ya es famosa, en el fondo es muy insegura, le cuesta comunicarse y siempre se compara con los demás. Aun así, es considerada y le da consejos a Kessoku Band para mejorar."
+        ],
+        "en": [
+          "The leader of SIDEROS. She sees Kessoku Band as her rival band, and Bocchi as her personal rival. She adores Kikuri, whom she calls \"nee-san\".",
+          "Although she is already famous, deep down she is very insecure, struggles to communicate and always compares herself to others. Still, she is considerate and gives Kessoku Band tips to improve."
+        ]
+      },
+      "curiosidades": {
+        "es": [
+          "Va sola al karaoke por miedo a que la juzguen.",
+          "Mide la popularidad en aforos: para ella, los 15.000 seguidores de Kita equivalen a un Budokan.",
+          "Se encierra días en la cama si sus videos no tienen visitas."
+        ],
+        "en": [
+          "She goes to karaoke alone, afraid of being judged.",
+          "She measures popularity in venue capacity: to her, Kita's 15,000 followers equal a Budokan.",
+          "She stays in bed for days when her videos get no views."
+        ]
+      }
+    },
+    {
+      "id": "futari",
+      "grupo": "secundario",
+      "color": "#F7BFD3",
+      "nombre": "Futari Gotoh",
+      "nombreJp": "後藤ふたり",
+      "rol": { "es": "Hermana pequeña de Bocchi", "en": "Bocchi's little sister" },
+      "edad": { "es": "5 años", "en": "5 years old" },
+      "cumpleanos": { "es": "7 de julio", "en": "July 7" },
+      "seiyu": "Misaki Watada",
+      "bio": {
+        "es": [
+          "La hermanita de Bocchi: todo lo contrario a ella. Es precoz, nada tímida y conoce gente nueva sin ningún miedo.",
+          "Con su honestidad brutal e inocente suele decir cosas que hieren, sobre todo a su hermana mayor, como recordarle que no tiene amigos."
+        ],
+        "en": [
+          "Bocchi's little sister and her complete opposite. She is precocious, not shy at all and meets new people without fear.",
+          "With her brutal, innocent honesty she often says hurtful things, especially to her big sister, like reminding her she has no friends."
+        ]
+      },
+      "curiosidades": {
+        "es": [
+          "Su nombre significa «dos personas»; el de su hermana, Hitori, significa «una persona».",
+          "Casi siempre está jugando con Jimihen, el perro de la familia.",
+          "Sus comentarios hacen que Bocchi entre en cortocircuito."
+        ],
+        "en": [
+          "Her name means \"two people\"; her sister's name, Hitori, means \"one person\".",
+          "She is almost always playing with Jimihen, the family dog.",
+          "Her comments make Bocchi short-circuit."
+        ]
+      }
+    },
+    {
+      "id": "jimihen",
+      "grupo": "secundario",
+      "color": "#D9A066",
+      "nombre": "Jimihen",
+      "nombreJp": "ジミヘン",
+      "rol": { "es": "El perro de los Gotoh", "en": "The Gotoh family's dog" },
+      "seiyu": "Kotori Koiwai",
+      "bio": {
+        "es": [
+          "El perro de la familia Gotoh, un shiba inu de pelaje marrón claro y blanco cuya cola se enrosca según su humor.",
+          "Es muy cariñoso y educado, se lleva bien hasta con desconocidos y casi siempre está con Futari."
+        ],
+        "en": [
+          "The Gotoh family dog, a light brown and white Shiba Inu whose tail curls depending on its mood.",
+          "It is very affectionate and well-mannered, gets along even with strangers and is almost always with Futari."
+        ]
+      },
+      "curiosidades": {
+        "es": [
+          "Su nombre viene de Jimi Hendrix, el legendario guitarrista.",
+          "Lo dobla la misma actriz que a PA-san."
+        ],
+        "en": [
+          "Its name comes from Jimi Hendrix, the legendary guitarist.",
+          "It is voiced by the same actress as PA-san."
+        ]
+      }
+    }
+  ]
+}
