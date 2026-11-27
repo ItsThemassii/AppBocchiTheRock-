@@ -16,6 +16,10 @@ import java.util.Random;
  *   java BocchiTools.java sticker-main <carpeta-con-png> <carpeta-salida>
  *       Igual, pero conserva solo la pieza más grande (quita gotitas, adornos sueltos...).
  *
+ *   java BocchiTools.java icon <imagen> <x> <y> <lado> <carpeta-res>
+ *       Recorta un cuadrado (x, y, lado) en círculo con borde blanco + rosa + tinta y
+ *       escribe ic_launcher_foreground.png en todas las densidades (mipmap-*dpi).
+ *
  *   java BocchiTools.java sounds <carpeta-salida>
  *       Genera sonidos de púa de guitarra (síntesis Karplus-Strong) en WAV.
  */
@@ -25,6 +29,7 @@ public class BocchiTools {
             case "sticker" -> stickerFolder(new File(args[1]), new File(args[2]));
             case "sticker-main" -> { mainOnly = true; stickerFolder(new File(args[1]), new File(args[2])); }
             case "sounds" -> sounds(new File(args[1]));
+            case "icon" -> icon(new File(args[1]), Integer.parseInt(args[2]), Integer.parseInt(args[3]), Integer.parseInt(args[4]), new File(args[5]));
             default -> throw new IllegalArgumentException(args[0]);
         }
     }
@@ -143,6 +148,40 @@ public class BocchiTools {
             }
         }
         return d;
+    }
+
+    // ------------------------------------------------------------------ ícono
+
+    /** Capa frontal del ícono adaptativo (108 dp; lo visible es el círculo central de ~72 dp). */
+    static void icon(File src, int x, int y, int side, File res) throws IOException {
+        BufferedImage face = ImageIO.read(src).getSubimage(x, y, side, side);
+        String[] dirs = {"mipmap-mdpi", "mipmap-hdpi", "mipmap-xhdpi", "mipmap-xxhdpi", "mipmap-xxxhdpi"};
+        int[] sizes = {108, 162, 216, 324, 432};
+        for (int i = 0; i < dirs.length; i++) {
+            int s = sizes[i];
+            BufferedImage out = new BufferedImage(s, s, BufferedImage.TYPE_INT_ARGB);
+            java.awt.Graphics2D g = out.createGraphics();
+            g.setRenderingHint(java.awt.RenderingHints.KEY_ANTIALIASING, java.awt.RenderingHints.VALUE_ANTIALIAS_ON);
+            g.setRenderingHint(java.awt.RenderingHints.KEY_INTERPOLATION, java.awt.RenderingHints.VALUE_INTERPOLATION_BICUBIC);
+            g.setRenderingHint(java.awt.RenderingHints.KEY_RENDERING, java.awt.RenderingHints.VALUE_RENDER_QUALITY);
+            double c = s / 2.0;
+            // Anillos de fuera hacia dentro: tinta, rosa, blanco y la foto.
+            double rInk = s * 0.318, rPink = s * 0.308, rWhite = s * 0.285, rPhoto = s * 0.268;
+            g.setColor(new java.awt.Color(0x1C1A2E));
+            g.fill(new java.awt.geom.Ellipse2D.Double(c - rInk, c - rInk, rInk * 2, rInk * 2));
+            g.setColor(new java.awt.Color(0xE5578C));
+            g.fill(new java.awt.geom.Ellipse2D.Double(c - rPink, c - rPink, rPink * 2, rPink * 2));
+            g.setColor(java.awt.Color.WHITE);
+            g.fill(new java.awt.geom.Ellipse2D.Double(c - rWhite, c - rWhite, rWhite * 2, rWhite * 2));
+            java.awt.Shape photo = new java.awt.geom.Ellipse2D.Double(c - rPhoto, c - rPhoto, rPhoto * 2, rPhoto * 2);
+            g.setClip(photo);
+            g.drawImage(face, (int) Math.round(c - rPhoto), (int) Math.round(c - rPhoto), (int) Math.round(rPhoto * 2), (int) Math.round(rPhoto * 2), null);
+            g.dispose();
+            File dir = new File(res, dirs[i]);
+            dir.mkdirs();
+            ImageIO.write(out, "png", new File(dir, "ic_launcher_foreground.png"));
+        }
+        System.out.println("ícono listo");
     }
 
     // ------------------------------------------------------------------ sonidos

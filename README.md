@@ -3,7 +3,7 @@
 App para Android hecha con cariño por fans de **Bocchi the Rock!**: un juego de ritmo con las canciones
 de Kessoku Band, fichas de los personajes, un reproductor con letras y mucho estilo "cuaderno con stickers".
 
-**Versión 1.0.0** · Kotlin + Jetpack Compose · Android 8.0 o superior
+**Versión 1.0.1** · Kotlin + Jetpack Compose · Android 8.0 o superior
 
 <p align="center">
   <img src="docs/capturas/portada.png" width="230" alt="Portada">
@@ -105,6 +105,7 @@ Proyecto **de fans, no oficial y sin fines de lucro**, hecho para uso personal.
 (Aki Hamaji / Houbunsha / Aniplex / CloverWorks). Los datos de los personajes se consultaron en la
 [Bocchi the Rock! Wiki](https://bocchi-the-rock.fandom.com/) y las biografías están escritas con
 palabras propias. Los sonidos de la app se generaron por síntesis y el diseño es original.
+El ícono de la app usa una imagen de Bocchi del anime, recortada como sticker (uso de fans).
 
 ---
 
